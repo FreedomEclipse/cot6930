@@ -26,6 +26,7 @@ Date     |   Changes
          | comparison with the co-purchased (similar) data. Results are stored in csv files.
 11/14/14 | (AL) Added command line jaccardcompare to perform this action. no parameters are needed.
 11/14/14 | (AL) Added this file to GitHub for version control.
+11/14/14 | (EL) Created my GitHub account, cloned it in a new project
 ------------------------------------------------------------------------------------------------------------
 
 Notes:  Make sure to have these files in your project directory:
