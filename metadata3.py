@@ -169,7 +169,7 @@ filename2 = "recommended.txt"
 filename3 = "copurchased.txt"
 filename_rand1 = "recom-rand1.txt"
 my_text = open(filename, "r")
-my_text2 = open(filename2, "r")
+my_text2 = open(filename2, "r") #
 my_text3 = open(filename3, "r")
 my_text_rand1 = open(filename_rand1, "r")
 
@@ -177,6 +177,7 @@ my_text_rand1 = open(filename_rand1, "r")
 def process_file(filename):
     # with open(filename, "r", encoding="utf8") as my_text:
     with my_text:
+
         last_pos = my_text.tell()
         line = my_text.readline()
         line = line.strip()
@@ -461,7 +462,6 @@ def load_similar_list():
             itmsWithSimsCounter += 1
     print("ids_with_similar wih similar items: " + str(itmsWithSimsCounter))
 
-
 def load_similar_network_file():
     # creates the network graph text file that connects product ids
     # with their similar items from the metadata file.
@@ -478,7 +478,6 @@ def load_similar_network_file():
 
     f.close()
     print("nodes: " + str(numofnodes) + " edges: " + str(numofedges))
-
 
 def getsimilarpurchasedids(nodeid):
     returnlist = list()
@@ -574,7 +573,6 @@ def comparedicts(dict1, dict2):
     print "Count of 2: %d " % count2
     print "Count of 3: %d " % count3
     print "Count of 4: %d " % count4
-
 
 
 def main():
