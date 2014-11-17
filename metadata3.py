@@ -29,6 +29,8 @@ Date     |   Changes
 11/14/14 | (EL) Created my GitHub account, cloned it in a new project
 ------------------------------------------------------------------------------------------------------------
 
+test change
+
 Notes:  Make sure to have these files in your project directory:
 (1) recommended.txt  (used to be amazon0302.txt)
 (2) copurchased.txt (used to be similar-network.txt)
